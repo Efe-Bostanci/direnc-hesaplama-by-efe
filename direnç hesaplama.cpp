@@ -722,7 +722,7 @@ int main()
 					besincis = 1000000000;
 				}
 
-				cout << ((birincis * 100) + (ikincis * 10) + ucuncus) * dorduncus << " Ohm ?" << endl; //6şeritli işlem hesaplama bölümü
+				cout << ((birincis * 100) + (ikincis * 10) + ucuncus) * dorduncus << " Ohm ?" << endl << endl; //6şeritli işlem hesaplama bölümü
 				cout << "son banttaki deger sicakliga duyarliliktir " << endl << "formul: (ppm/C degeri)×(Direnc degeri)/1000000 " << endl << endl;
 		}
 	}
