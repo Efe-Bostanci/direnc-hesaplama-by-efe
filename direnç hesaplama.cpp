@@ -213,7 +213,7 @@ int main()
 					ucuncus = 1000000000;
 				}
 
-				cout << ((birincis * 10) + ikincis) * ucuncus << " Ohm ?" << endl; //4şeritli işlem hesaplama bölümü
+				cout << ((birincis * 10) + ikincis) * ucuncus << " Ohm ?" << endl << endl; //4şeritli işlem hesaplama bölümü
 			}
 
 			//--------------------------------------------------------------------------------------------------------//
@@ -440,7 +440,7 @@ int main()
 					dorduncus = 1000000000;
 				}
 
-				cout << ((birincis * 100) + (ikincis * 10) + ucuncus) * dorduncus << " Ohm ?" << endl; //5şeritli işlem hesaplama bölümü
+				cout << ((birincis * 100) + (ikincis * 10) + ucuncus) * dorduncus << " Ohm ?" << endl << endl; //5şeritli işlem hesaplama bölümü
 			}
 			
 			//--------------------------------------------------------------------------------------------------------//
@@ -723,7 +723,7 @@ int main()
 				}
 
 				cout << ((birincis * 100) + (ikincis * 10) + ucuncus) * dorduncus << " Ohm ?" << endl; //6şeritli işlem hesaplama bölümü
-				cout << "son banttaki deger sicakliga duyarliliktir " << endl << "formul: (ppm/C değeri)×(Direnç değeri)/1000000 " << endl;
+				cout << "son banttaki deger sicakliga duyarliliktir " << endl << "formul: (ppm/C degeri)×(Direnc degeri)/1000000 " << endl << endl;
 		}
 	}
   } 
