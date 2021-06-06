@@ -32,7 +32,7 @@ int main()
 			{
 				cout << endl << "!!!------yanlis yazmis olabilirsiniz------!!!" << endl;
 			}
-			cout << "\n1000 Ohm [o] = 1K [k]\n" << "10000 Ohm [o] = 10K [k]\n" << "100000 Ohm [o] = 100K [k]\n" << "1000000 Ohm [o] = 1000K [k]\n" << "10000000 Ohm [o] = 10000K [k]\n";
+			cout << "\n1000 Ohm [o] = 1K [k]\n" << "10000 Ohm [o] = 10K [k]\n" << "100000 Ohm [o] = 100K [k]\n" << "1000000 Ohm [o] = 1000K [k] = 1M [megaohm]\n" << "10000000 Ohm [o] = 10000K [k] = 10M [megaohm]\n" << "100000000 Ohm [o] = 100000K [k] = 100M [megaohm]\n" << "1000000000 Ohm [o] = 1000000K [k] = 1000M [megaohm]\n";
 			cout << endl << "renk yazilislari" << endl << "*siyah-----" << endl << "*kahve-----" << endl << "*kirmizi---" << endl << "*turuncu---" << endl << "*sari------" << endl << "*yesil-----" << endl << "*mavi------" << endl << "*mor-------" << endl << "*gri-------" << endl << "*beyaz-----" << endl << endl;		
 		}
 		
