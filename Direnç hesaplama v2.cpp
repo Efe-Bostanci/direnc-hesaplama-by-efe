@@ -7,11 +7,11 @@ int main()
 {
 	while (1)
 	{
-		long birincis, ikincis, ucuncus, dorduncus, besincis; //şerit
+		int birincis, ikincis, ucuncus, dorduncus, besincis, hane; //şerit
 
 		string renk1, renk2, renk3, renk4, renk5;
 		string serit, islem;
-		unsigned long smdsonuc, yenisayi, sonucdegeri, sayi; int hane;
+		unsigned long smdsonuc, yenisayi, sonucdegeri, sayi;
 
 		cout << "ne yapmak istersiniz ('direnc', 'smd' ya da 'bilgi'): ";
 		cin >> islem;
