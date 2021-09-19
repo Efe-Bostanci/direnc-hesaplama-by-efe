@@ -5,18 +5,9 @@ using namespace std;
 
 int main()
 {
-	//--------------------------------------------------------------------------------------------------------------------------------------------------------------------//
-	cout << " ===  ===  === ======== ===       =======   ====   ==========  ========    =======   =====      =========  =======         ======== ======== ========" << endl;
-	cout << " ===  ===  === ===      ===      ===      ===  === === === === ===         ======= ===  ===    === === === ===  ===        ===      ===      ===     " << endl;
-	cout << " ===  ===  === ======   ===      ===      ===  === === === === ======        ===   ===  ===    === === === =======         ======   ======   ======  " << endl;
-	cout << "  ===========  ===      ===      ===      ===  === ===     === ===           ===   ===  ===    ===     === === ===         ===      ===      ===     " << endl;
-	cout << "   ==== ====   ======== ========  =======   ====   ===     === ========      ===     ====      ===     === ===  ===   ==   ======== ===      ========" << endl << endl;
-	//--------------------------------------------------------------------------------------------------------------------------------------------------------------------//	
-
-
 	while (1)
 	{
-		long birincis, ikincis, ucuncus, dorduncus, besincis; //şerit
+		long birincis, ikincis, ucuncus, dorduncus, besincis; //ÅŸerit
 
 		string renk1, renk2, renk3, renk4, renk5;
 		string serit, islem;
@@ -84,7 +75,7 @@ int main()
 			cout << "kac seritli direnciniz var: ";
 			cin >> serit;
 
-			if (serit == "4") //4 şeritli direnç hesaplama bölümü
+			if (serit == "4") //4 ÅŸeritli direnÃ§ hesaplama bÃ¶lÃ¼mÃ¼
 			{
 				//-----------------birincis-----------------------
 
@@ -101,7 +92,7 @@ int main()
 					birincis = 1;
 				}
 
-				if (renk1 == "kirmizi") //kırmızı 1.
+				if (renk1 == "kirmizi") //kÄ±rmÄ±zÄ± 1.
 				{
 					birincis = 2;
 				}
@@ -111,7 +102,7 @@ int main()
 					birincis = 3;
 				}
 
-				if (renk1 == "sari") // sarı 1.
+				if (renk1 == "sari") // sarÄ± 1.
 				{
 					birincis = 4;
 				}
@@ -156,7 +147,7 @@ int main()
 					ikincis = 1;
 				}
 
-				if (renk2 == "kirmizi") //kırmızı 2.
+				if (renk2 == "kirmizi") //kÄ±rmÄ±zÄ± 2.
 				{
 					ikincis = 2;
 				}
@@ -166,7 +157,7 @@ int main()
 					ikincis = 3;
 				}
 
-				if (renk2 == "sari") // sarı 2.
+				if (renk2 == "sari") // sarÄ± 2.
 				{
 					ikincis = 4;
 				}
@@ -211,7 +202,7 @@ int main()
 					ucuncus = 10;
 				}
 
-				if (renk3 == "kirmizi") //kırmızı 3.
+				if (renk3 == "kirmizi") //kÄ±rmÄ±zÄ± 3.
 				{
 					ucuncus = 100;
 				}
@@ -221,7 +212,7 @@ int main()
 					ucuncus = 1000;
 				}
 
-				if (renk3 == "sari") // sarı 3.
+				if (renk3 == "sari") // sarÄ± 3.
 				{
 					ucuncus = 10000;
 				}
@@ -251,12 +242,12 @@ int main()
 					ucuncus = 1000000000;
 				}
 
-				cout << ((birincis * 10) + ikincis) * ucuncus << " Ohm ?" << endl << endl; //4şeritli işlem hesaplama bölümü
+				cout << ((birincis * 10) + ikincis) * ucuncus << " Ohm ?" << endl << endl; //4ÅŸeritli iÅŸlem hesaplama bÃ¶lÃ¼mÃ¼
 			}
 
 			//--------------------------------------------------------------------------------------------------------//
 
-			if (serit == "5") //5 şeritli direnç hesaplama bölümü
+			if (serit == "5") //5 ÅŸeritli direnÃ§ hesaplama bÃ¶lÃ¼mÃ¼
 			{
 				//-----------------birincis-----------------------
 
@@ -273,7 +264,7 @@ int main()
 					birincis = 1;
 				}
 
-				if (renk1 == "kirmizi") //kırmızı 1.
+				if (renk1 == "kirmizi") //kÄ±rmÄ±zÄ± 1.
 				{
 					birincis = 2;
 				}
@@ -283,7 +274,7 @@ int main()
 					birincis = 3;
 				}
 
-				if (renk1 == "sari") // sarı 1.
+				if (renk1 == "sari") // sarÄ± 1.
 				{
 					birincis = 4;
 				}
@@ -328,7 +319,7 @@ int main()
 					ikincis = 1;
 				}
 
-				if (renk2 == "kirmizi") //kırmızı 2.
+				if (renk2 == "kirmizi") //kÄ±rmÄ±zÄ± 2.
 				{
 					ikincis = 2;
 				}
@@ -338,7 +329,7 @@ int main()
 					ikincis = 3;
 				}
 
-				if (renk2 == "sari") // sarı 2.
+				if (renk2 == "sari") // sarÄ± 2.
 				{
 					ikincis = 4;
 				}
@@ -383,7 +374,7 @@ int main()
 					ucuncus = 1;
 				}
 
-				if (renk3 == "kirmizi") //kırmızı 3.
+				if (renk3 == "kirmizi") //kÄ±rmÄ±zÄ± 3.
 				{
 					ucuncus = 2;
 				}
@@ -393,7 +384,7 @@ int main()
 					ucuncus = 3;
 				}
 
-				if (renk3 == "sari") // sarı 3.
+				if (renk3 == "sari") // sarÄ± 3.
 				{
 					ucuncus = 4;
 				}
@@ -438,7 +429,7 @@ int main()
 					dorduncus = 10;
 				}
 
-				if (renk4 == "kirmizi") //kırmızı 4.
+				if (renk4 == "kirmizi") //kÄ±rmÄ±zÄ± 4.
 				{
 					dorduncus = 100;
 				}
@@ -448,7 +439,7 @@ int main()
 					dorduncus = 1000;
 				}
 
-				if (renk4 == "sari") // sarı 4.
+				if (renk4 == "sari") // sarÄ± 4.
 				{
 					dorduncus = 10000;
 				}
@@ -478,12 +469,12 @@ int main()
 					dorduncus = 1000000000;
 				}
 
-				cout << ((birincis * 100) + (ikincis * 10) + ucuncus) * dorduncus << " Ohm ?" << endl << endl; //5şeritli işlem hesaplama bölümü
+				cout << ((birincis * 100) + (ikincis * 10) + ucuncus) * dorduncus << " Ohm ?" << endl << endl; //5ÅŸeritli iÅŸlem hesaplama bÃ¶lÃ¼mÃ¼
 			}
 
 			//--------------------------------------------------------------------------------------------------------//
 
-			if (serit == "6") //6 şeritli direnç hesaplama bölümü
+			if (serit == "6") //6 ÅŸeritli direnÃ§ hesaplama bÃ¶lÃ¼mÃ¼
 			{
 				//-----------------birincis-----------------------
 
@@ -500,7 +491,7 @@ int main()
 					birincis = 1;
 				}
 
-				if (renk1 == "kirmizi") //kırmızı 1.
+				if (renk1 == "kirmizi") //kÄ±rmÄ±zÄ± 1.
 				{
 					birincis = 2;
 				}
@@ -510,7 +501,7 @@ int main()
 					birincis = 3;
 				}
 
-				if (renk1 == "sari") // sarı 1.
+				if (renk1 == "sari") // sarÄ± 1.
 				{
 					birincis = 4;
 				}
@@ -555,7 +546,7 @@ int main()
 					ikincis = 1;
 				}
 
-				if (renk2 == "kirmizi") //kırmızı 2.
+				if (renk2 == "kirmizi") //kÄ±rmÄ±zÄ± 2.
 				{
 					ikincis = 2;
 				}
@@ -565,7 +556,7 @@ int main()
 					ikincis = 3;
 				}
 
-				if (renk2 == "sari") // sarı 2.
+				if (renk2 == "sari") // sarÄ± 2.
 				{
 					ikincis = 4;
 				}
@@ -610,7 +601,7 @@ int main()
 					ucuncus = 1;
 				}
 
-				if (renk3 == "kirmizi") //kırmızı 3.
+				if (renk3 == "kirmizi") //kÄ±rmÄ±zÄ± 3.
 				{
 					ucuncus = 2;
 				}
@@ -620,7 +611,7 @@ int main()
 					ucuncus = 3;
 				}
 
-				if (renk3 == "sari") // sarı 3.
+				if (renk3 == "sari") // sarÄ± 3.
 				{
 					ucuncus = 4;
 				}
@@ -665,7 +656,7 @@ int main()
 					dorduncus = 1;
 				}
 
-				if (renk4 == "kirmizi") //kırmızı 4.
+				if (renk4 == "kirmizi") //kÄ±rmÄ±zÄ± 4.
 				{
 					dorduncus = 2;
 				}
@@ -675,7 +666,7 @@ int main()
 					dorduncus = 3;
 				}
 
-				if (renk4 == "sari") // sarı 4.
+				if (renk4 == "sari") // sarÄ± 4.
 				{
 					dorduncus = 4;
 				}
@@ -720,7 +711,7 @@ int main()
 					besincis = 10;
 				}
 
-				if (renk5 == "kirmizi") //kırmızı 5.
+				if (renk5 == "kirmizi") //kÄ±rmÄ±zÄ± 5.
 				{
 					besincis = 100;
 				}
@@ -730,7 +721,7 @@ int main()
 					besincis = 1000;
 				}
 
-				if (renk5 == "sari") // sarı 5.
+				if (renk5 == "sari") // sarÄ± 5.
 				{
 					besincis = 10000;
 				}
@@ -760,8 +751,8 @@ int main()
 					besincis = 1000000000;
 				}
 
-				cout << ((birincis * 100) + (ikincis * 10) + ucuncus) * dorduncus << " Ohm ?" << endl << endl; //6şeritli işlem hesaplama bölümü
-				cout << "son banttaki deger sicakliga duyarliliktir " << endl << "formul: (ppm/C degeri)×(Direnc degeri)/1000000 " << endl << endl;
+				cout << ((birincis * 100) + (ikincis * 10) + ucuncus) * dorduncus << " Ohm ?" << endl << endl; //6ÅŸeritli iÅŸlem hesaplama bÃ¶lÃ¼mÃ¼
+				cout << "son banttaki deger sicakliga duyarliliktir " << endl << "formul: (ppm/C degeri)Ã—(Direnc degeri)/1000000 " << endl << endl;
 			}
 		}
 		//-----------------------direnc-----------------------------------------
